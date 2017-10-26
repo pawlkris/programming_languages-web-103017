@@ -11,7 +11,7 @@ def reformat_languages(languages)
   end
   languages[:functional].each do |language,hash|
     hash.each do |key,value|
-      if new_hash[language].key?
+      if new_hash.key?
         new_hash[language][:style] << :functional
       else
         new_hash[language] = {key => value, :style => :functional}
