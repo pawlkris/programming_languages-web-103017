@@ -1,7 +1,7 @@
 require "pry"
 
 
-def reformat_languages(languages)
+def reformat_languages
   # your code here
   new_hash = {}
   languages[:oo].each do |language,hash|
