@@ -1,9 +1,5 @@
 require "pry"
 
-def add_language(hash, language, stylearray)
-  return hash[:language][:style] => stylearray
-end
-
 
 def reformat_languages(languages)
   # your code here
@@ -12,5 +8,5 @@ def reformat_languages(languages)
     binding.pry
     new_hash[language] => hash
 
-  
+
 end
