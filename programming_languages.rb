@@ -1,7 +1,7 @@
 require "pry"
 
 
-def reformat_languages
+def reformat_languages(languages)
   # your code here
   new_hash = {}
   languages[:oo].each do |language,hash|
@@ -9,6 +9,4 @@ def reformat_languages
       new_hash[language] = {key => value, :style => :oo}
     end
   end
-
-  binding.pry
 end
